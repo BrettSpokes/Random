@@ -1,31 +1,47 @@
+.vast-shadow-regular {
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
-    background-color: #f8f9fa; /* Light gray background for a subtle look */
-    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa;
+    /* Light gray background for a subtle look */
+    height: 100vh;
+    /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 #displayQuestion {
     margin-top: 20px;
-    font-size: 20px; /* Larger text for visibility */
+    font-size: 20px;
+    /* Larger text for visibility */
 }
 
-nav, .btn-cyan {
+nav,
+.btn-cyan {
     background-color: #26bee4;
 }
 
 nav {
-    position: fixed; /* Fix position to the top of the viewport */
+    position: fixed;
+    /* Fix position to the top of the viewport */
     top: 0;
     left: 0;
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    z-index: 1000; /* High z-index to keep navbar above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    z-index: 1000;
+    /* High z-index to keep navbar above other content */
 }
-nav a, .btn-cyan {
+
+nav a,
+.btn-cyan {
     color: white;
     text-decoration: none;
     font-size: 18px;
