@@ -1,2 +1,0 @@
-# GenerateRandomIcebreakerQuestion
- GenerateRandomIcebreakerQuestion
